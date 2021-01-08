@@ -1,0 +1,29 @@
+.login-content {
+	height: 100%;
+	position: relative;
+}
+
+.login-content {
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 10px;
+	transform: translate(-50%, -50%);
+	border: 1px solid #efefef;
+	background: rgba(255, 255, 255, .2);
+
+	&:before, &:after {
+		content: '';
+		display: table;
+	}
+
+	padding: 4rem;
+
+	img.logo {
+		width: 50px;
+		height: auto;
+	}
+}
+
